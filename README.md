@@ -16,7 +16,9 @@
 # Calling Notifications
 **Calling from client-side script:**
 `exports['AxionNotifications']:Notify(MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
+
 **Calling from server-side script to single player:**
 `exports['AxionNotifications']:Notify(source, MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
+
 **Calling from server-side script to all players:**
 `exports['AxionNotifications']:Notify(-0, MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
