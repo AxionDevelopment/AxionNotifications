@@ -1,5 +1,7 @@
-# Inputs
+# AxionNotifications
+Custom notification framework to send prettified notifications to the client.
 
+## Inputs
 |  | Message | Type | Miliseconds |
 |--|--|--|--|
 | Type | String | String | Integer |
@@ -12,8 +14,7 @@
 | `"error"` | Red |
 | `"info"` | Blue |
 
-
-# Calling Notifications
+## Calling Notifications
 **Calling from client-side script:**
 `exports['AxionNotifications']:Notify(MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
 
