@@ -14,4 +14,5 @@ files {
 }
 
 client_script 'axionnotifications/client.lua'
+
 server_script 'axionnotifications/server.lua'
