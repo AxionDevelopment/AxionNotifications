@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#notifications {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+}
+
+.notification {
+    position: relative;
+    background: rgba(20, 20, 20, 0.95);
+    color: white;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(-60px);
+    transition: all 0.35s ease;
+    border-left: 5px solid #3498db;
+    overflow: hidden;
+}
+
+.notification.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.notification.success { border-color: #2ecc71; }
+.notification.error { border-color: #e74c3c; }
+.notification.info { border-color: #3498db; }
+
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: rgba(255,255,255,0.2);
+}
+
+.progress-fill {
+    height: 100%;
+    width: 100%;
+    background: white;
+    transition: width linear;
+}
