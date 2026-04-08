@@ -8,6 +8,6 @@ AddEventHandler('axionnotifications:server', function(target, message, type, dur
 end)
 
 -- Export for server-side use
-exports('AxionNotify', function(target, message, type, duration)
+exports('Notify', function(target, message, type, duration)
     TriggerClientEvent('axionnotifications:send', target, message, type, duration)
 end)

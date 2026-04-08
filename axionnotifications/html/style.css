@@ -31,9 +31,11 @@ body {
     transform: translateY(0);
 }
 
-.notification.success { border-color: #2ecc71; }
-.notification.error { border-color: #e74c3c; }
-.notification.info { border-color: #3498db; }
+.notification.info { border-color: #3498db; box-shadow: 0 0 10px #3498db; }
+.notification.success { border-color: #00ff6a; box-shadow: 0 0 10px #00ff6a; }
+.notification.error { border-color: #e74c3c; box-shadow: 0 0 10px #e74c3c; }
+.notification.system { border-color: #fd9904; box-shadow: 0 0 10px #fd9904; }
+.notification.money { border-color: #11bc4f; box-shadow: 0 0 10px #11bc4f; }
 
 .progress-bar {
     position: absolute;
