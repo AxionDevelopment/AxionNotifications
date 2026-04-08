@@ -22,14 +22,10 @@ Custom notification framework to send prettified notifications to the client.
 
 ## Calling Notifications
 **Calling from client-side script:**
-`exports['AxionNotifications']:AxionNotify(MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
+`exports['AxionNotifications']:Notify(MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
 
 **Calling from server-side script to single player:**
-`exports['AxionNotifications']:AxionNotify(source, MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
+`exports['AxionNotifications']:Notify(source, MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
 
 **Calling from server-side script to all players:**
-<<<<<<< Updated upstream
 `exports['AxionNotifications']:Notify(-0, MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
-=======
-`exports['AxionNotifications']:AxionNotify(-0, MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
->>>>>>> Stashed changes
