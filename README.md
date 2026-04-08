@@ -1,3 +1,6 @@
+![AxionNotifications](https://spunkyman.com/cdn/axion/AxionNotifications_stats.png)
+0 ms CPU time at idle
+
 # AxionNotifications
 Custom notification framework to send prettified notifications to the client.
 
