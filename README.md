@@ -1,4 +1,5 @@
 ![AxionNotifications](https://spunkyman.com/cdn/axion/AxionNotifications_stats.png)
+
 0 ms CPU time at idle.
 
 # AxionNotifications
