@@ -6,9 +6,9 @@
 Custom notification framework to send prettified notifications to the client.
 
 ## Inputs
-|  | Message | Type | Miliseconds |
+|  | Message | Type | Duration (ms) |
 |--|--|--|--|
-| Type | String | String | Integer |
+|         | String | String | Integer |
 | Example | `"Test Message"` | `"success"` | `5000` |
 
 **Available Types:**
