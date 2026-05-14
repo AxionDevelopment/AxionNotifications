@@ -6,9 +6,9 @@ body {
 
 #notifications {
     position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
     width: 320px;
 }
 
