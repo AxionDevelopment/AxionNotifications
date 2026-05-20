@@ -28,4 +28,4 @@ Custom notification framework to send prettified notifications to the client.
 `exports['AxionNotifications']:Notify(source, MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
 
 **Calling from server-side script to all players:**
-`exports['AxionNotifications']:Notify(-0, MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
+`exports['AxionNotifications']:Notify(-1, MESSAGE[STRING], TYPE[STRING], MILISECONDS[INTEGER])`
