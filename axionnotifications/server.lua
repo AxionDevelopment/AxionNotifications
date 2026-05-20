@@ -9,5 +9,9 @@ end)
 
 -- Export for server-side use
 exports('Notify', function(target, message, type, duration)
-    TriggerClientEvent('axionnotifications:send', target, message, type, duration)
+    if target == -1 then
+        TriggerClientEvent('axionnotifications:send', -1, message, type or 'info', duration or 5000)
+    else
+        TriggerClientEvent('axionnotifications:send', target, message, type or 'info', duration or 5000)
+    end
 end)
